@@ -17,18 +17,31 @@
 
     <div class="resultado">
         <div class="titulo">--</div>
+        <div class="coord">lat:  -  long: </div>
 
         <div class="info">
             <div class="temp">
                 <div class="tempTitulo">Temperatura</div>
                 <div class="tempInfo">-- <sup>ºC</sup></div>
+                <div class="other">
+                    <span id="sens">sensação térmica:</span>
+                    <div class="min-max">
+                        <span id="min">Min:</span>
+                        <span id="max">Max:</span>
+                    </div>
+                </div>
                 <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                <p id="desc">descriçao</p>
             </div>
             <div class="vento">
                 <div class="ventoTitulo">Vento</div>
                 <div class="ventoInfo">-- <span>km/h</span></div>
                 <div class="ventoArea">
                     <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+                <div class="otherAr">
+                    <div class="humidity">humidade: </div>
+                    <div class="visibility">visibilidade: </div>
                 </div>
             </div>
         </div>
